@@ -1,0 +1,239 @@
+/* ── Google Fonts: Inter — must come before @tailwind ───── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Design tokens ───────────────────────────────────────── */
+:root {
+  --bg:           #080d14;
+  --surface:      #0e1621;
+  --card:         #131e2c;
+  --border:       #1e2f45;
+  --hover:        #1a2c42;
+  --primary:      #f1f5f9;
+  --muted:        #7a92ac;
+  --accent:       #38bdf8;
+  --accent-dim:   rgba(56, 189, 248, 0.12);
+
+  /* Status colours */
+  --green:        #34d399;
+  --green-dim:    rgba(52, 211, 153, 0.12);
+  --green-border: rgba(52, 211, 153, 0.35);
+  --amber:        #fbbf24;
+  --amber-dim:    rgba(251, 191, 36, 0.12);
+  --amber-border: rgba(251, 191, 36, 0.35);
+  --red:          #f87171;
+  --red-dim:      rgba(248, 113, 113, 0.12);
+  --red-border:   rgba(248, 113, 113, 0.35);
+  --orange:       #fb923c;
+  --orange-dim:   rgba(251, 146, 60, 0.12);
+
+  /* Scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) var(--surface);
+}
+
+/* ── Base reset ──────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--primary);
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────── */
+::-webkit-scrollbar            { width: 6px; height: 6px; }
+::-webkit-scrollbar-track      { background: var(--surface); }
+::-webkit-scrollbar-thumb      { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover{ background: #2d4560; }
+
+/* ── Typography helpers ──────────────────────────────────── */
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: -0.02em;
+}
+
+.section-title {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ── Surface / card ──────────────────────────────────────── */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.55);
+}
+
+/* ── Table helpers ───────────────────────────────────────── */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table thead tr {
+  background: var(--surface);
+}
+
+.data-table th {
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.data-table td {
+  padding: 10px 14px;
+  font-size: 0.8125rem;
+  color: var(--primary);
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.data-table tbody tr:last-child td { border-bottom: none; }
+.data-table tbody tr:hover { background: var(--hover); }
+
+/* ── Buttons ─────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 16px;
+  border-radius: 7px;
+  border: none;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.btn-accent {
+  background: var(--accent);
+  color: #020d18;
+}
+.btn-accent:hover { background: #7dd3fc; }
+
+.btn-ghost {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+.btn-ghost:hover { background: var(--hover); color: var(--primary); border-color: #2d4560; }
+
+.btn-ghost.active {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* ── Score bar ───────────────────────────────────────────── */
+.score-track {
+  height: 5px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.score-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.4s ease;
+}
+
+/* ── Alert banners ───────────────────────────────────────── */
+.alert {
+  padding: 14px 18px;
+  border-radius: 8px;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+.alert-error {
+  background: var(--red-dim);
+  border: 1px solid var(--red-border);
+  color: var(--red);
+}
+.alert-success {
+  background: var(--green-dim);
+  border: 1px solid var(--green-border);
+  color: var(--green);
+}
+.alert-info {
+  background: var(--accent-dim);
+  border: 1px solid rgba(56,189,248,0.3);
+  color: var(--muted);
+}
+
+/* ── Stat card ───────────────────────────────────────────── */
+.stat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 18px;
+  text-align: center;
+  min-width: 80px;
+}
+.stat-value { font-size: 1.5rem; font-weight: 700; line-height: 1.2; }
+.stat-label { font-size: 0.625rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-top: 2px; }
+
+/* ── Blockquote (assessment) ─────────────────────────────── */
+.assessment-quote {
+  margin: 0;
+  padding: 18px 20px 18px 22px;
+  border-left: 3px solid var(--green);
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: var(--primary);
+  white-space: pre-wrap;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.8rem;
+}
+
+/* ── Drop zone ───────────────────────────────────────────── */
+.drop-zone {
+  border: 2px dashed var(--border);
+  border-radius: 8px;
+  padding: 32px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.drop-zone:hover, .drop-zone.dragging {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+
+/* ── Animations ──────────────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0);   }
+}
+.fade-in { animation: fadeIn 0.25s ease both; }

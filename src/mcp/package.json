@@ -1,0 +1,24 @@
+{
+  "name": "mission-readiness-mcp",
+  "version": "1.0.0",
+  "description": "MCP server exposing Mission Readiness Officer tools to IBM Bob",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node -e \"const fs=require('fs'); const p='build/index.js'; let c=fs.readFileSync(p,'utf8'); if(!c.startsWith('#!/usr/bin/env node')){fs.writeFileSync(p,'#!/usr/bin/env node\\n'+c);} require('fs').chmodSync(p,0o755);\"",
+    "dev": "node --loader ts-node/esm src/index.ts"
+  },
+  "bin": {
+    "mission-readiness-mcp": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.2.0"
+  }
+}

@@ -1,0 +1,601 @@
+reading_id,asset_id,tail_number,asset_type,platform,timestamp,metric_name,value,unit,component
+RD00001,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-08T10:12:06Z,vibration_mm_s,3.44,mm/s,rotor
+RD00002,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-08T10:12:06Z,engine_temp_c,124.78,celsius,engine
+RD00003,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-08T10:12:06Z,oil_quality_index,78.92,index,hydraulics
+RD00004,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-08T10:12:06Z,hours_since_last_service,15.07,hours,airframe
+RD00005,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-09T19:29:57Z,vibration_mm_s,1.22,mm/s,rotor
+RD00006,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-09T19:29:57Z,engine_temp_c,147.79,celsius,engine
+RD00007,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-09T19:29:57Z,oil_quality_index,65.88,index,hydraulics
+RD00008,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-09T19:29:57Z,hours_since_last_service,43.8,hours,airframe
+RD00009,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-10T04:12:17Z,vibration_mm_s,2.64,mm/s,rotor
+RD00010,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-10T04:12:17Z,engine_temp_c,149.97,celsius,engine
+RD00011,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-10T04:12:17Z,oil_quality_index,72.27,index,hydraulics
+RD00012,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-10T04:12:17Z,hours_since_last_service,110.18,hours,airframe
+RD00013,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-12T17:25:25Z,vibration_mm_s,3.17,mm/s,rotor
+RD00014,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-12T17:25:25Z,engine_temp_c,120.36,celsius,engine
+RD00015,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-12T17:25:25Z,oil_quality_index,91.59,index,hydraulics
+RD00016,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-12T17:25:25Z,hours_since_last_service,128.68,hours,airframe
+RD00017,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-12T23:41:07Z,vibration_mm_s,1.62,mm/s,rotor
+RD00018,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-12T23:41:07Z,engine_temp_c,128.55,celsius,engine
+RD00019,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-12T23:41:07Z,oil_quality_index,96.59,index,hydraulics
+RD00020,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-12T23:41:07Z,hours_since_last_service,67.22,hours,airframe
+RD00021,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-13T09:43:37Z,vibration_mm_s,0.81,mm/s,rotor
+RD00022,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-13T09:43:37Z,engine_temp_c,125.32,celsius,engine
+RD00023,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-13T09:43:37Z,oil_quality_index,92.97,index,hydraulics
+RD00024,AH01,TAIL-AH01,helicopter,AH-64 Apache,2025-07-13T09:43:37Z,hours_since_last_service,112.63,hours,airframe
+RD00025,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-10T21:35:37Z,vibration_mm_s,3.24,mm/s,rotor
+RD00026,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-10T21:35:37Z,engine_temp_c,154.02,celsius,engine
+RD00027,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-10T21:35:37Z,oil_quality_index,93.44,index,hydraulics
+RD00028,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-10T21:35:37Z,hours_since_last_service,108.15,hours,airframe
+RD00029,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-12T00:05:10Z,vibration_mm_s,2.83,mm/s,rotor
+RD00030,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-12T00:05:10Z,engine_temp_c,122.52,celsius,engine
+RD00031,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-12T00:05:10Z,oil_quality_index,72.52,index,hydraulics
+RD00032,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-12T00:05:10Z,hours_since_last_service,59.2,hours,airframe
+RD00033,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-12T02:44:34Z,vibration_mm_s,0.76,mm/s,rotor
+RD00034,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-12T02:44:34Z,engine_temp_c,132.8,celsius,engine
+RD00035,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-12T02:44:34Z,oil_quality_index,68.33,index,hydraulics
+RD00036,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-12T02:44:34Z,hours_since_last_service,57.26,hours,airframe
+RD00037,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-13T08:35:41Z,vibration_mm_s,2.6,mm/s,rotor
+RD00038,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-13T08:35:41Z,engine_temp_c,140.07,celsius,engine
+RD00039,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-13T08:35:41Z,oil_quality_index,77.22,index,hydraulics
+RD00040,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-13T08:35:41Z,hours_since_last_service,45.62,hours,airframe
+RD00041,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-13T21:35:51Z,vibration_mm_s,1.38,mm/s,rotor
+RD00042,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-13T21:35:51Z,engine_temp_c,171.52,celsius,engine
+RD00043,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-13T21:35:51Z,oil_quality_index,86.39,index,hydraulics
+RD00044,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-13T21:35:51Z,hours_since_last_service,113.55,hours,airframe
+RD00045,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-15T01:29:00Z,vibration_mm_s,1.06,mm/s,rotor
+RD00046,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-15T01:29:00Z,engine_temp_c,160.1,celsius,engine
+RD00047,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-15T01:29:00Z,oil_quality_index,70.39,index,hydraulics
+RD00048,AH02,TAIL-AH02,helicopter,AH-64 Apache,2025-07-15T01:29:00Z,hours_since_last_service,74.51,hours,airframe
+RD00049,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-12T03:34:03Z,vibration_mm_s,1.26,mm/s,rotor
+RD00050,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-12T03:34:03Z,engine_temp_c,121.77,celsius,engine
+RD00051,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-12T03:34:03Z,oil_quality_index,75.41,index,hydraulics
+RD00052,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-12T03:34:03Z,hours_since_last_service,55.52,hours,airframe
+RD00053,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-12T17:31:11Z,vibration_mm_s,1.2,mm/s,rotor
+RD00054,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-12T17:31:11Z,engine_temp_c,171.86,celsius,engine
+RD00055,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-12T17:31:11Z,oil_quality_index,93.92,index,hydraulics
+RD00056,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-12T17:31:11Z,hours_since_last_service,63.5,hours,airframe
+RD00057,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-13T01:00:54Z,vibration_mm_s,2.66,mm/s,rotor
+RD00058,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-13T01:00:54Z,engine_temp_c,141.76,celsius,engine
+RD00059,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-13T01:00:54Z,oil_quality_index,95.18,index,hydraulics
+RD00060,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-13T01:00:54Z,hours_since_last_service,88.0,hours,airframe
+RD00061,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-13T16:22:04Z,vibration_mm_s,1.37,mm/s,rotor
+RD00062,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-13T16:22:04Z,engine_temp_c,133.56,celsius,engine
+RD00063,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-13T16:22:04Z,oil_quality_index,83.53,index,hydraulics
+RD00064,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-13T16:22:04Z,hours_since_last_service,54.67,hours,airframe
+RD00065,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-14T03:35:56Z,vibration_mm_s,2.43,mm/s,rotor
+RD00066,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-14T03:35:56Z,engine_temp_c,169.38,celsius,engine
+RD00067,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-14T03:35:56Z,oil_quality_index,78.18,index,hydraulics
+RD00068,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-14T03:35:56Z,hours_since_last_service,47.28,hours,airframe
+RD00069,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-15T04:14:23Z,vibration_mm_s,3.79,mm/s,rotor
+RD00070,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-15T04:14:23Z,engine_temp_c,148.02,celsius,engine
+RD00071,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-15T04:14:23Z,oil_quality_index,68.0,index,hydraulics
+RD00072,AH03,TAIL-AH03,helicopter,AH-64 Apache,2025-07-15T04:14:23Z,hours_since_last_service,18.01,hours,airframe
+RD00073,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-08T16:40:21Z,vibration_mm_s,8.36,mm/s,rotor
+RD00074,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-08T16:40:21Z,engine_temp_c,149.1,celsius,engine
+RD00075,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-08T16:40:21Z,oil_quality_index,97.05,index,hydraulics
+RD00076,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-08T16:40:21Z,hours_since_last_service,156.33,hours,airframe
+RD00077,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-09T00:25:15Z,vibration_mm_s,8.04,mm/s,rotor
+RD00078,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-09T00:25:15Z,engine_temp_c,159.64,celsius,engine
+RD00079,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-09T00:25:15Z,oil_quality_index,87.5,index,hydraulics
+RD00080,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-09T00:25:15Z,hours_since_last_service,101.28,hours,airframe
+RD00081,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-10T22:06:43Z,vibration_mm_s,8.12,mm/s,rotor
+RD00082,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-10T22:06:43Z,engine_temp_c,155.25,celsius,engine
+RD00083,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-10T22:06:43Z,oil_quality_index,68.68,index,hydraulics
+RD00084,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-10T22:06:43Z,hours_since_last_service,83.91,hours,airframe
+RD00085,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-11T04:55:22Z,vibration_mm_s,8.18,mm/s,rotor
+RD00086,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-11T04:55:22Z,engine_temp_c,172.46,celsius,engine
+RD00087,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-11T04:55:22Z,oil_quality_index,93.9,index,hydraulics
+RD00088,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-11T04:55:22Z,hours_since_last_service,54.78,hours,airframe
+RD00089,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-12T15:24:39Z,vibration_mm_s,8.2,mm/s,rotor
+RD00090,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-12T15:24:39Z,engine_temp_c,129.83,celsius,engine
+RD00091,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-12T15:24:39Z,oil_quality_index,95.12,index,hydraulics
+RD00092,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-12T15:24:39Z,hours_since_last_service,157.99,hours,airframe
+RD00093,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-13T19:04:09Z,vibration_mm_s,8.13,mm/s,rotor
+RD00094,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-13T19:04:09Z,engine_temp_c,155.14,celsius,engine
+RD00095,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-13T19:04:09Z,oil_quality_index,85.1,index,hydraulics
+RD00096,AH04,TAIL-AH04,helicopter,AH-64 Apache,2025-07-13T19:04:09Z,hours_since_last_service,35.98,hours,airframe
+RD00097,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-08T06:05:45Z,vibration_mm_s,0.56,mm/s,rotor
+RD00098,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-08T06:05:45Z,engine_temp_c,171.1,celsius,engine
+RD00099,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-08T06:05:45Z,oil_quality_index,94.0,index,hydraulics
+RD00100,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-08T06:05:45Z,hours_since_last_service,151.38,hours,airframe
+RD00101,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-10T12:27:29Z,vibration_mm_s,1.51,mm/s,rotor
+RD00102,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-10T12:27:29Z,engine_temp_c,123.19,celsius,engine
+RD00103,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-10T12:27:29Z,oil_quality_index,93.97,index,hydraulics
+RD00104,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-10T12:27:29Z,hours_since_last_service,170.98,hours,airframe
+RD00105,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-11T23:05:57Z,vibration_mm_s,0.78,mm/s,rotor
+RD00106,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-11T23:05:57Z,engine_temp_c,146.73,celsius,engine
+RD00107,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-11T23:05:57Z,oil_quality_index,67.28,index,hydraulics
+RD00108,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-11T23:05:57Z,hours_since_last_service,139.3,hours,airframe
+RD00109,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-12T00:36:56Z,vibration_mm_s,3.03,mm/s,rotor
+RD00110,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-12T00:36:56Z,engine_temp_c,127.06,celsius,engine
+RD00111,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-12T00:36:56Z,oil_quality_index,80.68,index,hydraulics
+RD00112,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-12T00:36:56Z,hours_since_last_service,103.47,hours,airframe
+RD00113,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-13T14:06:06Z,vibration_mm_s,1.37,mm/s,rotor
+RD00114,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-13T14:06:06Z,engine_temp_c,167.98,celsius,engine
+RD00115,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-13T14:06:06Z,oil_quality_index,78.96,index,hydraulics
+RD00116,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-13T14:06:06Z,hours_since_last_service,46.01,hours,airframe
+RD00117,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-13T16:48:33Z,vibration_mm_s,2.28,mm/s,rotor
+RD00118,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-13T16:48:33Z,engine_temp_c,160.15,celsius,engine
+RD00119,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-13T16:48:33Z,oil_quality_index,71.64,index,hydraulics
+RD00120,AH05,TAIL-AH05,helicopter,AH-64 Apache,2025-07-13T16:48:33Z,hours_since_last_service,62.99,hours,airframe
+RD00121,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-09T02:19:43Z,vibration_mm_s,1.62,mm/s,rotor
+RD00122,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-09T02:19:43Z,engine_temp_c,152.36,celsius,engine
+RD00123,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-09T02:19:43Z,oil_quality_index,72.59,index,hydraulics
+RD00124,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-09T02:19:43Z,hours_since_last_service,47.44,hours,airframe
+RD00125,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-09T19:44:56Z,vibration_mm_s,0.73,mm/s,rotor
+RD00126,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-09T19:44:56Z,engine_temp_c,154.71,celsius,engine
+RD00127,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-09T19:44:56Z,oil_quality_index,72.56,index,hydraulics
+RD00128,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-09T19:44:56Z,hours_since_last_service,163.92,hours,airframe
+RD00129,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-11T07:36:02Z,vibration_mm_s,3.34,mm/s,rotor
+RD00130,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-11T07:36:02Z,engine_temp_c,123.9,celsius,engine
+RD00131,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-11T07:36:02Z,oil_quality_index,72.85,index,hydraulics
+RD00132,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-11T07:36:02Z,hours_since_last_service,123.73,hours,airframe
+RD00133,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-11T20:57:09Z,vibration_mm_s,1.21,mm/s,rotor
+RD00134,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-11T20:57:09Z,engine_temp_c,127.28,celsius,engine
+RD00135,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-11T20:57:09Z,oil_quality_index,95.87,index,hydraulics
+RD00136,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-11T20:57:09Z,hours_since_last_service,107.08,hours,airframe
+RD00137,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-12T19:10:46Z,vibration_mm_s,2.06,mm/s,rotor
+RD00138,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-12T19:10:46Z,engine_temp_c,163.15,celsius,engine
+RD00139,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-12T19:10:46Z,oil_quality_index,91.65,index,hydraulics
+RD00140,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-12T19:10:46Z,hours_since_last_service,42.37,hours,airframe
+RD00141,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-15T05:11:06Z,vibration_mm_s,0.82,mm/s,rotor
+RD00142,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-15T05:11:06Z,engine_temp_c,143.71,celsius,engine
+RD00143,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-15T05:11:06Z,oil_quality_index,78.98,index,hydraulics
+RD00144,UH01,TAIL-UH01,helicopter,UH-60 Black Hawk,2025-07-15T05:11:06Z,hours_since_last_service,89.39,hours,airframe
+RD00145,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-08T22:32:03Z,vibration_mm_s,3.34,mm/s,rotor
+RD00146,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-08T22:32:03Z,engine_temp_c,133.68,celsius,engine
+RD00147,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-08T22:32:03Z,oil_quality_index,71.28,index,hydraulics
+RD00148,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-08T22:32:03Z,hours_since_last_service,86.26,hours,airframe
+RD00149,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-10T15:00:10Z,vibration_mm_s,1.89,mm/s,rotor
+RD00150,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-10T15:00:10Z,engine_temp_c,135.32,celsius,engine
+RD00151,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-10T15:00:10Z,oil_quality_index,73.24,index,hydraulics
+RD00152,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-10T15:00:10Z,hours_since_last_service,166.96,hours,airframe
+RD00153,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-11T01:38:25Z,vibration_mm_s,1.96,mm/s,rotor
+RD00154,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-11T01:38:25Z,engine_temp_c,167.37,celsius,engine
+RD00155,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-11T01:38:25Z,oil_quality_index,83.16,index,hydraulics
+RD00156,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-11T01:38:25Z,hours_since_last_service,18.6,hours,airframe
+RD00157,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-12T23:07:30Z,vibration_mm_s,3.8,mm/s,rotor
+RD00158,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-12T23:07:30Z,engine_temp_c,165.98,celsius,engine
+RD00159,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-12T23:07:30Z,oil_quality_index,96.98,index,hydraulics
+RD00160,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-12T23:07:30Z,hours_since_last_service,167.48,hours,airframe
+RD00161,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-13T08:29:05Z,vibration_mm_s,3.3,mm/s,rotor
+RD00162,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-13T08:29:05Z,engine_temp_c,129.15,celsius,engine
+RD00163,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-13T08:29:05Z,oil_quality_index,81.03,index,hydraulics
+RD00164,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-13T08:29:05Z,hours_since_last_service,46.34,hours,airframe
+RD00165,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-15T03:20:23Z,vibration_mm_s,1.82,mm/s,rotor
+RD00166,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-15T03:20:23Z,engine_temp_c,123.22,celsius,engine
+RD00167,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-15T03:20:23Z,oil_quality_index,77.51,index,hydraulics
+RD00168,UH02,TAIL-UH02,helicopter,UH-60 Black Hawk,2025-07-15T03:20:23Z,hours_since_last_service,177.5,hours,airframe
+RD00169,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-10T02:33:14Z,vibration_mm_s,2.33,mm/s,rotor
+RD00170,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-10T02:33:14Z,engine_temp_c,229.99,celsius,engine
+RD00171,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-10T02:33:14Z,oil_quality_index,70.11,index,hydraulics
+RD00172,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-10T02:33:14Z,hours_since_last_service,60.44,hours,airframe
+RD00173,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-11T05:03:54Z,vibration_mm_s,3.7,mm/s,rotor
+RD00174,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-11T05:03:54Z,engine_temp_c,228.72,celsius,engine
+RD00175,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-11T05:03:54Z,oil_quality_index,82.89,index,hydraulics
+RD00176,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-11T05:03:54Z,hours_since_last_service,137.16,hours,airframe
+RD00177,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-11T10:26:29Z,vibration_mm_s,0.69,mm/s,rotor
+RD00178,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-11T10:26:29Z,engine_temp_c,228.77,celsius,engine
+RD00179,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-11T10:26:29Z,oil_quality_index,81.59,index,hydraulics
+RD00180,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-11T10:26:29Z,hours_since_last_service,154.96,hours,airframe
+RD00181,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-13T17:43:25Z,vibration_mm_s,1.02,mm/s,rotor
+RD00182,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-13T17:43:25Z,engine_temp_c,232.2,celsius,engine
+RD00183,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-13T17:43:25Z,oil_quality_index,67.64,index,hydraulics
+RD00184,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-13T17:43:25Z,hours_since_last_service,41.59,hours,airframe
+RD00185,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-14T22:49:45Z,vibration_mm_s,2.46,mm/s,rotor
+RD00186,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-14T22:49:45Z,engine_temp_c,229.6,celsius,engine
+RD00187,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-14T22:49:45Z,oil_quality_index,72.76,index,hydraulics
+RD00188,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-14T22:49:45Z,hours_since_last_service,30.38,hours,airframe
+RD00189,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-15T05:13:51Z,vibration_mm_s,3.44,mm/s,rotor
+RD00190,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-15T05:13:51Z,engine_temp_c,225.69,celsius,engine
+RD00191,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-15T05:13:51Z,oil_quality_index,84.62,index,hydraulics
+RD00192,UH03,TAIL-UH03,helicopter,UH-60 Black Hawk,2025-07-15T05:13:51Z,hours_since_last_service,115.29,hours,airframe
+RD00193,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-09T16:18:55Z,vibration_mm_s,1.29,mm/s,rotor
+RD00194,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-09T16:18:55Z,engine_temp_c,141.77,celsius,engine
+RD00195,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-09T16:18:55Z,oil_quality_index,87.17,index,hydraulics
+RD00196,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-09T16:18:55Z,hours_since_last_service,61.0,hours,airframe
+RD00197,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-11T04:25:47Z,vibration_mm_s,1.54,mm/s,rotor
+RD00198,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-11T04:25:47Z,engine_temp_c,161.35,celsius,engine
+RD00199,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-11T04:25:47Z,oil_quality_index,67.39,index,hydraulics
+RD00200,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-11T04:25:47Z,hours_since_last_service,87.91,hours,airframe
+RD00201,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-11T21:49:38Z,vibration_mm_s,3.79,mm/s,rotor
+RD00202,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-11T21:49:38Z,engine_temp_c,174.79,celsius,engine
+RD00203,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-11T21:49:38Z,oil_quality_index,67.42,index,hydraulics
+RD00204,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-11T21:49:38Z,hours_since_last_service,46.24,hours,airframe
+RD00205,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-12T08:03:25Z,vibration_mm_s,1.38,mm/s,rotor
+RD00206,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-12T08:03:25Z,engine_temp_c,171.33,celsius,engine
+RD00207,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-12T08:03:25Z,oil_quality_index,94.07,index,hydraulics
+RD00208,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-12T08:03:25Z,hours_since_last_service,159.48,hours,airframe
+RD00209,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-13T06:19:12Z,vibration_mm_s,1.72,mm/s,rotor
+RD00210,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-13T06:19:12Z,engine_temp_c,128.68,celsius,engine
+RD00211,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-13T06:19:12Z,oil_quality_index,92.51,index,hydraulics
+RD00212,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-13T06:19:12Z,hours_since_last_service,129.6,hours,airframe
+RD00213,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-14T19:01:50Z,vibration_mm_s,2.52,mm/s,rotor
+RD00214,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-14T19:01:50Z,engine_temp_c,174.3,celsius,engine
+RD00215,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-14T19:01:50Z,oil_quality_index,86.58,index,hydraulics
+RD00216,UH04,TAIL-UH04,helicopter,UH-60 Black Hawk,2025-07-14T19:01:50Z,hours_since_last_service,11.33,hours,airframe
+RD00217,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-09T01:23:31Z,vibration_mm_s,0.85,mm/s,rotor
+RD00218,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-09T01:23:31Z,engine_temp_c,150.43,celsius,engine
+RD00219,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-09T01:23:31Z,oil_quality_index,73.99,index,hydraulics
+RD00220,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-09T01:23:31Z,hours_since_last_service,112.82,hours,airframe
+RD00221,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-09T04:33:39Z,vibration_mm_s,2.87,mm/s,rotor
+RD00222,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-09T04:33:39Z,engine_temp_c,131.2,celsius,engine
+RD00223,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-09T04:33:39Z,oil_quality_index,85.93,index,hydraulics
+RD00224,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-09T04:33:39Z,hours_since_last_service,54.88,hours,airframe
+RD00225,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-10T08:17:44Z,vibration_mm_s,2.11,mm/s,rotor
+RD00226,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-10T08:17:44Z,engine_temp_c,169.79,celsius,engine
+RD00227,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-10T08:17:44Z,oil_quality_index,92.92,index,hydraulics
+RD00228,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-10T08:17:44Z,hours_since_last_service,25.69,hours,airframe
+RD00229,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-12T21:26:57Z,vibration_mm_s,1.9,mm/s,rotor
+RD00230,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-12T21:26:57Z,engine_temp_c,135.22,celsius,engine
+RD00231,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-12T21:26:57Z,oil_quality_index,65.12,index,hydraulics
+RD00232,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-12T21:26:57Z,hours_since_last_service,141.09,hours,airframe
+RD00233,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-13T23:16:24Z,vibration_mm_s,2.6,mm/s,rotor
+RD00234,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-13T23:16:24Z,engine_temp_c,134.41,celsius,engine
+RD00235,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-13T23:16:24Z,oil_quality_index,89.46,index,hydraulics
+RD00236,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-13T23:16:24Z,hours_since_last_service,103.79,hours,airframe
+RD00237,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-14T19:44:24Z,vibration_mm_s,1.91,mm/s,rotor
+RD00238,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-14T19:44:24Z,engine_temp_c,120.53,celsius,engine
+RD00239,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-14T19:44:24Z,oil_quality_index,67.48,index,hydraulics
+RD00240,UH05,TAIL-UH05,helicopter,UH-60 Black Hawk,2025-07-14T19:44:24Z,hours_since_last_service,160.13,hours,airframe
+RD00241,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-09T03:24:39Z,vibration_mm_s,1.52,mm/s,engine
+RD00242,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-09T03:24:39Z,engine_temp_c,169.44,celsius,engine
+RD00243,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-09T03:24:39Z,oil_quality_index,91.27,index,hydraulics
+RD00244,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-09T03:24:39Z,hours_since_last_service,156.32,hours,airframe
+RD00245,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-09T06:52:47Z,vibration_mm_s,3.47,mm/s,engine
+RD00246,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-09T06:52:47Z,engine_temp_c,131.55,celsius,engine
+RD00247,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-09T06:52:47Z,oil_quality_index,73.23,index,hydraulics
+RD00248,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-09T06:52:47Z,hours_since_last_service,27.47,hours,airframe
+RD00249,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-12T01:39:33Z,vibration_mm_s,3.07,mm/s,engine
+RD00250,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-12T01:39:33Z,engine_temp_c,168.63,celsius,engine
+RD00251,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-12T01:39:33Z,oil_quality_index,78.41,index,hydraulics
+RD00252,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-12T01:39:33Z,hours_since_last_service,115.51,hours,airframe
+RD00253,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-12T07:51:41Z,vibration_mm_s,1.01,mm/s,engine
+RD00254,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-12T07:51:41Z,engine_temp_c,171.14,celsius,engine
+RD00255,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-12T07:51:41Z,oil_quality_index,93.53,index,hydraulics
+RD00256,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-12T07:51:41Z,hours_since_last_service,175.96,hours,airframe
+RD00257,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-14T02:12:43Z,vibration_mm_s,3.18,mm/s,engine
+RD00258,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-14T02:12:43Z,engine_temp_c,168.48,celsius,engine
+RD00259,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-14T02:12:43Z,oil_quality_index,65.82,index,hydraulics
+RD00260,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-14T02:12:43Z,hours_since_last_service,135.22,hours,airframe
+RD00261,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-14T13:51:36Z,vibration_mm_s,1.6,mm/s,engine
+RD00262,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-14T13:51:36Z,engine_temp_c,171.19,celsius,engine
+RD00263,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-14T13:51:36Z,oil_quality_index,91.47,index,hydraulics
+RD00264,AW01,TAIL-AW01,fixed_wing,A-10 Thunderbolt II,2025-07-14T13:51:36Z,hours_since_last_service,156.89,hours,airframe
+RD00265,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-09T00:09:36Z,vibration_mm_s,1.23,mm/s,engine
+RD00266,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-09T00:09:36Z,engine_temp_c,164.91,celsius,engine
+RD00267,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-09T00:09:36Z,oil_quality_index,31.95,index,hydraulics
+RD00268,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-09T00:09:36Z,hours_since_last_service,61.88,hours,airframe
+RD00269,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-10T02:49:24Z,vibration_mm_s,3.12,mm/s,engine
+RD00270,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-10T02:49:24Z,engine_temp_c,132.52,celsius,engine
+RD00271,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-10T02:49:24Z,oil_quality_index,31.39,index,hydraulics
+RD00272,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-10T02:49:24Z,hours_since_last_service,42.83,hours,airframe
+RD00273,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-13T18:16:44Z,vibration_mm_s,1.58,mm/s,engine
+RD00274,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-13T18:16:44Z,engine_temp_c,167.54,celsius,engine
+RD00275,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-13T18:16:44Z,oil_quality_index,32.6,index,hydraulics
+RD00276,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-13T18:16:44Z,hours_since_last_service,57.45,hours,airframe
+RD00277,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-13T22:12:21Z,vibration_mm_s,2.62,mm/s,engine
+RD00278,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-13T22:12:21Z,engine_temp_c,141.98,celsius,engine
+RD00279,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-13T22:12:21Z,oil_quality_index,32.62,index,hydraulics
+RD00280,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-13T22:12:21Z,hours_since_last_service,101.16,hours,airframe
+RD00281,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-14T06:14:37Z,vibration_mm_s,3.6,mm/s,engine
+RD00282,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-14T06:14:37Z,engine_temp_c,126.34,celsius,engine
+RD00283,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-14T06:14:37Z,oil_quality_index,32.6,index,hydraulics
+RD00284,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-14T06:14:37Z,hours_since_last_service,40.36,hours,airframe
+RD00285,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-14T08:31:26Z,vibration_mm_s,3.68,mm/s,engine
+RD00286,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-14T08:31:26Z,engine_temp_c,134.6,celsius,engine
+RD00287,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-14T08:31:26Z,oil_quality_index,31.5,index,hydraulics
+RD00288,AW02,TAIL-AW02,fixed_wing,A-10 Thunderbolt II,2025-07-14T08:31:26Z,hours_since_last_service,83.88,hours,airframe
+RD00289,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-10T10:41:52Z,vibration_mm_s,1.34,mm/s,engine
+RD00290,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-10T10:41:52Z,engine_temp_c,158.98,celsius,engine
+RD00291,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-10T10:41:52Z,oil_quality_index,65.06,index,hydraulics
+RD00292,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-10T10:41:52Z,hours_since_last_service,167.35,hours,airframe
+RD00293,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-10T22:42:46Z,vibration_mm_s,2.28,mm/s,engine
+RD00294,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-10T22:42:46Z,engine_temp_c,159.57,celsius,engine
+RD00295,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-10T22:42:46Z,oil_quality_index,89.48,index,hydraulics
+RD00296,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-10T22:42:46Z,hours_since_last_service,124.01,hours,airframe
+RD00297,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-11T19:55:08Z,vibration_mm_s,1.7,mm/s,engine
+RD00298,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-11T19:55:08Z,engine_temp_c,123.85,celsius,engine
+RD00299,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-11T19:55:08Z,oil_quality_index,86.92,index,hydraulics
+RD00300,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-11T19:55:08Z,hours_since_last_service,66.13,hours,airframe
+RD00301,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-12T06:52:00Z,vibration_mm_s,1.54,mm/s,engine
+RD00302,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-12T06:52:00Z,engine_temp_c,166.64,celsius,engine
+RD00303,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-12T06:52:00Z,oil_quality_index,88.75,index,hydraulics
+RD00304,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-12T06:52:00Z,hours_since_last_service,61.05,hours,airframe
+RD00305,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-12T11:50:35Z,vibration_mm_s,1.52,mm/s,engine
+RD00306,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-12T11:50:35Z,engine_temp_c,142.46,celsius,engine
+RD00307,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-12T11:50:35Z,oil_quality_index,78.28,index,hydraulics
+RD00308,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-12T11:50:35Z,hours_since_last_service,60.26,hours,airframe
+RD00309,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-13T08:23:44Z,vibration_mm_s,0.92,mm/s,engine
+RD00310,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-13T08:23:44Z,engine_temp_c,143.12,celsius,engine
+RD00311,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-13T08:23:44Z,oil_quality_index,96.03,index,hydraulics
+RD00312,AW03,TAIL-AW03,fixed_wing,A-10 Thunderbolt II,2025-07-13T08:23:44Z,hours_since_last_service,125.14,hours,airframe
+RD00313,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-08T06:04:05Z,vibration_mm_s,1.92,mm/s,engine
+RD00314,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-08T06:04:05Z,engine_temp_c,151.9,celsius,engine
+RD00315,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-08T06:04:05Z,oil_quality_index,86.61,index,hydraulics
+RD00316,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-08T06:04:05Z,hours_since_last_service,89.05,hours,airframe
+RD00317,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-10T06:12:05Z,vibration_mm_s,1.96,mm/s,engine
+RD00318,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-10T06:12:05Z,engine_temp_c,131.75,celsius,engine
+RD00319,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-10T06:12:05Z,oil_quality_index,80.62,index,hydraulics
+RD00320,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-10T06:12:05Z,hours_since_last_service,163.2,hours,airframe
+RD00321,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-10T08:33:34Z,vibration_mm_s,3.13,mm/s,engine
+RD00322,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-10T08:33:34Z,engine_temp_c,129.33,celsius,engine
+RD00323,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-10T08:33:34Z,oil_quality_index,67.8,index,hydraulics
+RD00324,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-10T08:33:34Z,hours_since_last_service,97.63,hours,airframe
+RD00325,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-12T02:03:12Z,vibration_mm_s,2.59,mm/s,engine
+RD00326,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-12T02:03:12Z,engine_temp_c,138.44,celsius,engine
+RD00327,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-12T02:03:12Z,oil_quality_index,92.01,index,hydraulics
+RD00328,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-12T02:03:12Z,hours_since_last_service,137.69,hours,airframe
+RD00329,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-12T13:24:23Z,vibration_mm_s,2.72,mm/s,engine
+RD00330,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-12T13:24:23Z,engine_temp_c,132.36,celsius,engine
+RD00331,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-12T13:24:23Z,oil_quality_index,71.57,index,hydraulics
+RD00332,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-12T13:24:23Z,hours_since_last_service,14.15,hours,airframe
+RD00333,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-14T13:40:16Z,vibration_mm_s,1.31,mm/s,engine
+RD00334,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-14T13:40:16Z,engine_temp_c,146.13,celsius,engine
+RD00335,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-14T13:40:16Z,oil_quality_index,93.04,index,hydraulics
+RD00336,AW04,TAIL-AW04,fixed_wing,A-10 Thunderbolt II,2025-07-14T13:40:16Z,hours_since_last_service,22.38,hours,airframe
+RD00337,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-09T14:39:54Z,vibration_mm_s,2.66,mm/s,engine
+RD00338,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-09T14:39:54Z,engine_temp_c,120.3,celsius,engine
+RD00339,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-09T14:39:54Z,oil_quality_index,89.78,index,hydraulics
+RD00340,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-09T14:39:54Z,hours_since_last_service,140.91,hours,airframe
+RD00341,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-09T22:59:21Z,vibration_mm_s,0.85,mm/s,engine
+RD00342,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-09T22:59:21Z,engine_temp_c,143.38,celsius,engine
+RD00343,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-09T22:59:21Z,oil_quality_index,70.8,index,hydraulics
+RD00344,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-09T22:59:21Z,hours_since_last_service,172.85,hours,airframe
+RD00345,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-11T03:37:33Z,vibration_mm_s,2.21,mm/s,engine
+RD00346,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-11T03:37:33Z,engine_temp_c,122.76,celsius,engine
+RD00347,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-11T03:37:33Z,oil_quality_index,73.22,index,hydraulics
+RD00348,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-11T03:37:33Z,hours_since_last_service,154.22,hours,airframe
+RD00349,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-11T17:03:19Z,vibration_mm_s,2.01,mm/s,engine
+RD00350,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-11T17:03:19Z,engine_temp_c,164.08,celsius,engine
+RD00351,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-11T17:03:19Z,oil_quality_index,87.03,index,hydraulics
+RD00352,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-11T17:03:19Z,hours_since_last_service,177.94,hours,airframe
+RD00353,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-12T15:48:02Z,vibration_mm_s,2.46,mm/s,engine
+RD00354,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-12T15:48:02Z,engine_temp_c,172.25,celsius,engine
+RD00355,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-12T15:48:02Z,oil_quality_index,94.42,index,hydraulics
+RD00356,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-12T15:48:02Z,hours_since_last_service,114.15,hours,airframe
+RD00357,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-13T02:59:15Z,vibration_mm_s,2.87,mm/s,engine
+RD00358,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-13T02:59:15Z,engine_temp_c,147.76,celsius,engine
+RD00359,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-13T02:59:15Z,oil_quality_index,92.41,index,hydraulics
+RD00360,CH01,TAIL-CH01,fixed_wing,C-130 Hercules,2025-07-13T02:59:15Z,hours_since_last_service,103.14,hours,airframe
+RD00361,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-09T23:32:10Z,vibration_mm_s,3.03,mm/s,engine
+RD00362,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-09T23:32:10Z,engine_temp_c,148.67,celsius,engine
+RD00363,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-09T23:32:10Z,oil_quality_index,85.68,index,hydraulics
+RD00364,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-09T23:32:10Z,hours_since_last_service,56.68,hours,airframe
+RD00365,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-10T01:32:39Z,vibration_mm_s,0.76,mm/s,engine
+RD00366,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-10T01:32:39Z,engine_temp_c,135.72,celsius,engine
+RD00367,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-10T01:32:39Z,oil_quality_index,73.97,index,hydraulics
+RD00368,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-10T01:32:39Z,hours_since_last_service,64.35,hours,airframe
+RD00369,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-11T13:44:43Z,vibration_mm_s,2.28,mm/s,engine
+RD00370,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-11T13:44:43Z,engine_temp_c,127.61,celsius,engine
+RD00371,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-11T13:44:43Z,oil_quality_index,72.63,index,hydraulics
+RD00372,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-11T13:44:43Z,hours_since_last_service,127.97,hours,airframe
+RD00373,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-12T17:07:37Z,vibration_mm_s,2.83,mm/s,engine
+RD00374,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-12T17:07:37Z,engine_temp_c,123.53,celsius,engine
+RD00375,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-12T17:07:37Z,oil_quality_index,78.45,index,hydraulics
+RD00376,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-12T17:07:37Z,hours_since_last_service,102.24,hours,airframe
+RD00377,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-13T10:56:02Z,vibration_mm_s,1.87,mm/s,engine
+RD00378,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-13T10:56:02Z,engine_temp_c,131.38,celsius,engine
+RD00379,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-13T10:56:02Z,oil_quality_index,78.86,index,hydraulics
+RD00380,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-13T10:56:02Z,hours_since_last_service,163.82,hours,airframe
+RD00381,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-14T12:43:51Z,vibration_mm_s,2.43,mm/s,engine
+RD00382,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-14T12:43:51Z,engine_temp_c,158.25,celsius,engine
+RD00383,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-14T12:43:51Z,oil_quality_index,93.27,index,hydraulics
+RD00384,CH02,TAIL-CH02,fixed_wing,C-130 Hercules,2025-07-14T12:43:51Z,hours_since_last_service,140.15,hours,airframe
+RD00385,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-08T06:59:25Z,vibration_mm_s,1.88,mm/s,engine
+RD00386,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-08T06:59:25Z,engine_temp_c,161.11,celsius,engine
+RD00387,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-08T06:59:25Z,oil_quality_index,83.02,index,hydraulics
+RD00388,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-08T06:59:25Z,hours_since_last_service,112.55,hours,airframe
+RD00389,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-10T17:05:43Z,vibration_mm_s,1.23,mm/s,engine
+RD00390,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-10T17:05:43Z,engine_temp_c,132.07,celsius,engine
+RD00391,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-10T17:05:43Z,oil_quality_index,79.38,index,hydraulics
+RD00392,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-10T17:05:43Z,hours_since_last_service,14.93,hours,airframe
+RD00393,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-10T21:54:14Z,vibration_mm_s,1.61,mm/s,engine
+RD00394,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-10T21:54:14Z,engine_temp_c,157.35,celsius,engine
+RD00395,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-10T21:54:14Z,oil_quality_index,78.34,index,hydraulics
+RD00396,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-10T21:54:14Z,hours_since_last_service,38.06,hours,airframe
+RD00397,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-13T12:35:01Z,vibration_mm_s,2.04,mm/s,engine
+RD00398,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-13T12:35:01Z,engine_temp_c,127.02,celsius,engine
+RD00399,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-13T12:35:01Z,oil_quality_index,85.53,index,hydraulics
+RD00400,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-13T12:35:01Z,hours_since_last_service,14.58,hours,airframe
+RD00401,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-14T05:22:45Z,vibration_mm_s,1.8,mm/s,engine
+RD00402,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-14T05:22:45Z,engine_temp_c,151.04,celsius,engine
+RD00403,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-14T05:22:45Z,oil_quality_index,65.89,index,hydraulics
+RD00404,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-14T05:22:45Z,hours_since_last_service,119.27,hours,airframe
+RD00405,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-14T22:10:34Z,vibration_mm_s,0.95,mm/s,engine
+RD00406,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-14T22:10:34Z,engine_temp_c,145.39,celsius,engine
+RD00407,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-14T22:10:34Z,oil_quality_index,66.66,index,hydraulics
+RD00408,CH03,TAIL-CH03,fixed_wing,C-130 Hercules,2025-07-14T22:10:34Z,hours_since_last_service,74.45,hours,airframe
+RD00409,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-09T17:33:32Z,vibration_mm_s,5.74,mm/s,engine
+RD00410,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-09T17:33:32Z,engine_temp_c,194.69,celsius,engine
+RD00411,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-09T17:33:32Z,oil_quality_index,65.64,index,hydraulics
+RD00412,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-09T17:33:32Z,hours_since_last_service,101.7,hours,airframe
+RD00413,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-10T12:54:36Z,vibration_mm_s,5.92,mm/s,engine
+RD00414,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-10T12:54:36Z,engine_temp_c,196.81,celsius,engine
+RD00415,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-10T12:54:36Z,oil_quality_index,86.45,index,hydraulics
+RD00416,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-10T12:54:36Z,hours_since_last_service,142.81,hours,airframe
+RD00417,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-10T21:41:35Z,vibration_mm_s,5.84,mm/s,engine
+RD00418,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-10T21:41:35Z,engine_temp_c,200.01,celsius,engine
+RD00419,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-10T21:41:35Z,oil_quality_index,96.34,index,hydraulics
+RD00420,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-10T21:41:35Z,hours_since_last_service,43.89,hours,airframe
+RD00421,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-13T12:20:15Z,vibration_mm_s,5.69,mm/s,engine
+RD00422,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-13T12:20:15Z,engine_temp_c,195.25,celsius,engine
+RD00423,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-13T12:20:15Z,oil_quality_index,69.17,index,hydraulics
+RD00424,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-13T12:20:15Z,hours_since_last_service,123.81,hours,airframe
+RD00425,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-13T13:53:11Z,vibration_mm_s,5.81,mm/s,engine
+RD00426,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-13T13:53:11Z,engine_temp_c,195.77,celsius,engine
+RD00427,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-13T13:53:11Z,oil_quality_index,88.08,index,hydraulics
+RD00428,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-13T13:53:11Z,hours_since_last_service,140.37,hours,airframe
+RD00429,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-14T01:45:47Z,vibration_mm_s,5.72,mm/s,engine
+RD00430,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-14T01:45:47Z,engine_temp_c,198.85,celsius,engine
+RD00431,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-14T01:45:47Z,oil_quality_index,89.68,index,hydraulics
+RD00432,CH04,TAIL-CH04,fixed_wing,C-130 Hercules,2025-07-14T01:45:47Z,hours_since_last_service,29.47,hours,airframe
+RD00433,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-08T10:18:50Z,vibration_mm_s,3.66,mm/s,drivetrain
+RD00434,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-08T10:18:50Z,engine_temp_c,141.82,celsius,engine
+RD00435,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-08T10:18:50Z,oil_quality_index,88.6,index,engine
+RD00436,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-08T10:18:50Z,hours_since_last_service,22.92,hours,drivetrain
+RD00437,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-09T00:09:38Z,vibration_mm_s,2.78,mm/s,drivetrain
+RD00438,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-09T00:09:38Z,engine_temp_c,154.5,celsius,engine
+RD00439,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-09T00:09:38Z,oil_quality_index,68.36,index,engine
+RD00440,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-09T00:09:38Z,hours_since_last_service,141.32,hours,drivetrain
+RD00441,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-10T10:24:31Z,vibration_mm_s,3.31,mm/s,drivetrain
+RD00442,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-10T10:24:31Z,engine_temp_c,153.02,celsius,engine
+RD00443,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-10T10:24:31Z,oil_quality_index,68.99,index,engine
+RD00444,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-10T10:24:31Z,hours_since_last_service,177.25,hours,drivetrain
+RD00445,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-12T23:47:39Z,vibration_mm_s,3.08,mm/s,drivetrain
+RD00446,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-12T23:47:39Z,engine_temp_c,139.1,celsius,engine
+RD00447,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-12T23:47:39Z,oil_quality_index,79.14,index,engine
+RD00448,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-12T23:47:39Z,hours_since_last_service,73.0,hours,drivetrain
+RD00449,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-13T23:38:33Z,vibration_mm_s,2.17,mm/s,drivetrain
+RD00450,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-13T23:38:33Z,engine_temp_c,138.77,celsius,engine
+RD00451,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-13T23:38:33Z,oil_quality_index,93.04,index,engine
+RD00452,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-13T23:38:33Z,hours_since_last_service,149.8,hours,drivetrain
+RD00453,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-15T00:04:23Z,vibration_mm_s,0.85,mm/s,drivetrain
+RD00454,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-15T00:04:23Z,engine_temp_c,172.84,celsius,engine
+RD00455,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-15T00:04:23Z,oil_quality_index,85.97,index,engine
+RD00456,MB01,TAIL-MB01,ground_vehicle,M1 Abrams,2025-07-15T00:04:23Z,hours_since_last_service,150.88,hours,drivetrain
+RD00457,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-10T03:22:25Z,vibration_mm_s,2.28,mm/s,drivetrain
+RD00458,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-10T03:22:25Z,engine_temp_c,146.59,celsius,engine
+RD00459,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-10T03:22:25Z,oil_quality_index,79.37,index,engine
+RD00460,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-10T03:22:25Z,hours_since_last_service,134.27,hours,drivetrain
+RD00461,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-11T07:09:42Z,vibration_mm_s,1.39,mm/s,drivetrain
+RD00462,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-11T07:09:42Z,engine_temp_c,166.84,celsius,engine
+RD00463,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-11T07:09:42Z,oil_quality_index,92.41,index,engine
+RD00464,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-11T07:09:42Z,hours_since_last_service,24.73,hours,drivetrain
+RD00465,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-13T04:49:40Z,vibration_mm_s,3.41,mm/s,drivetrain
+RD00466,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-13T04:49:40Z,engine_temp_c,133.41,celsius,engine
+RD00467,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-13T04:49:40Z,oil_quality_index,80.34,index,engine
+RD00468,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-13T04:49:40Z,hours_since_last_service,113.76,hours,drivetrain
+RD00469,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-13T09:16:39Z,vibration_mm_s,1.75,mm/s,drivetrain
+RD00470,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-13T09:16:39Z,engine_temp_c,121.58,celsius,engine
+RD00471,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-13T09:16:39Z,oil_quality_index,93.08,index,engine
+RD00472,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-13T09:16:39Z,hours_since_last_service,40.91,hours,drivetrain
+RD00473,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-13T21:46:38Z,vibration_mm_s,1.2,mm/s,drivetrain
+RD00474,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-13T21:46:38Z,engine_temp_c,163.88,celsius,engine
+RD00475,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-13T21:46:38Z,oil_quality_index,76.23,index,engine
+RD00476,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-13T21:46:38Z,hours_since_last_service,159.65,hours,drivetrain
+RD00477,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-15T00:11:58Z,vibration_mm_s,2.81,mm/s,drivetrain
+RD00478,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-15T00:11:58Z,engine_temp_c,135.19,celsius,engine
+RD00479,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-15T00:11:58Z,oil_quality_index,65.33,index,engine
+RD00480,MB02,TAIL-MB02,ground_vehicle,M1 Abrams,2025-07-15T00:11:58Z,hours_since_last_service,171.17,hours,drivetrain
+RD00481,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-08T20:22:58Z,vibration_mm_s,2.12,mm/s,drivetrain
+RD00482,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-08T20:22:58Z,engine_temp_c,163.61,celsius,engine
+RD00483,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-08T20:22:58Z,oil_quality_index,68.07,index,engine
+RD00484,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-08T20:22:58Z,hours_since_last_service,382.69,hours,drivetrain
+RD00485,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-11T16:04:51Z,vibration_mm_s,2.78,mm/s,drivetrain
+RD00486,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-11T16:04:51Z,engine_temp_c,136.84,celsius,engine
+RD00487,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-11T16:04:51Z,oil_quality_index,84.19,index,engine
+RD00488,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-11T16:04:51Z,hours_since_last_service,386.59,hours,drivetrain
+RD00489,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-12T18:30:42Z,vibration_mm_s,2.25,mm/s,drivetrain
+RD00490,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-12T18:30:42Z,engine_temp_c,143.4,celsius,engine
+RD00491,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-12T18:30:42Z,oil_quality_index,89.62,index,engine
+RD00492,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-12T18:30:42Z,hours_since_last_service,384.38,hours,drivetrain
+RD00493,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-13T02:01:20Z,vibration_mm_s,2.82,mm/s,drivetrain
+RD00494,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-13T02:01:20Z,engine_temp_c,134.9,celsius,engine
+RD00495,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-13T02:01:20Z,oil_quality_index,73.3,index,engine
+RD00496,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-13T02:01:20Z,hours_since_last_service,381.13,hours,drivetrain
+RD00497,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-13T06:58:21Z,vibration_mm_s,1.14,mm/s,drivetrain
+RD00498,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-13T06:58:21Z,engine_temp_c,126.58,celsius,engine
+RD00499,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-13T06:58:21Z,oil_quality_index,82.68,index,engine
+RD00500,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-13T06:58:21Z,hours_since_last_service,391.06,hours,drivetrain
+RD00501,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-13T13:22:17Z,vibration_mm_s,1.11,mm/s,drivetrain
+RD00502,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-13T13:22:17Z,engine_temp_c,131.9,celsius,engine
+RD00503,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-13T13:22:17Z,oil_quality_index,80.98,index,engine
+RD00504,MB03,TAIL-MB03,ground_vehicle,M1 Abrams,2025-07-13T13:22:17Z,hours_since_last_service,390.48,hours,drivetrain
+RD00505,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-08T22:53:18Z,vibration_mm_s,1.09,mm/s,drivetrain
+RD00506,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-08T22:53:18Z,engine_temp_c,120.78,celsius,engine
+RD00507,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-08T22:53:18Z,oil_quality_index,82.63,index,engine
+RD00508,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-08T22:53:18Z,hours_since_last_service,56.63,hours,drivetrain
+RD00509,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-09T14:36:42Z,vibration_mm_s,3.72,mm/s,drivetrain
+RD00510,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-09T14:36:42Z,engine_temp_c,150.43,celsius,engine
+RD00511,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-09T14:36:42Z,oil_quality_index,88.01,index,engine
+RD00512,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-09T14:36:42Z,hours_since_last_service,31.47,hours,drivetrain
+RD00513,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-09T20:13:01Z,vibration_mm_s,3.37,mm/s,drivetrain
+RD00514,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-09T20:13:01Z,engine_temp_c,147.0,celsius,engine
+RD00515,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-09T20:13:01Z,oil_quality_index,93.8,index,engine
+RD00516,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-09T20:13:01Z,hours_since_last_service,107.59,hours,drivetrain
+RD00517,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-10T05:32:37Z,vibration_mm_s,2.05,mm/s,drivetrain
+RD00518,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-10T05:32:37Z,engine_temp_c,144.23,celsius,engine
+RD00519,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-10T05:32:37Z,oil_quality_index,71.08,index,engine
+RD00520,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-10T05:32:37Z,hours_since_last_service,18.73,hours,drivetrain
+RD00521,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-11T22:08:20Z,vibration_mm_s,3.61,mm/s,drivetrain
+RD00522,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-11T22:08:20Z,engine_temp_c,146.28,celsius,engine
+RD00523,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-11T22:08:20Z,oil_quality_index,92.13,index,engine
+RD00524,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-11T22:08:20Z,hours_since_last_service,78.12,hours,drivetrain
+RD00525,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-15T02:04:11Z,vibration_mm_s,0.74,mm/s,drivetrain
+RD00526,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-15T02:04:11Z,engine_temp_c,154.62,celsius,engine
+RD00527,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-15T02:04:11Z,oil_quality_index,66.77,index,engine
+RD00528,MB04,TAIL-MB04,ground_vehicle,M1 Abrams,2025-07-15T02:04:11Z,hours_since_last_service,35.36,hours,drivetrain
+RD00529,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-09T01:53:59Z,vibration_mm_s,3.11,mm/s,drivetrain
+RD00530,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-09T01:53:59Z,engine_temp_c,132.41,celsius,engine
+RD00531,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-09T01:53:59Z,oil_quality_index,82.24,index,engine
+RD00532,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-09T01:53:59Z,hours_since_last_service,86.59,hours,drivetrain
+RD00533,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-10T09:02:39Z,vibration_mm_s,1.96,mm/s,drivetrain
+RD00534,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-10T09:02:39Z,engine_temp_c,167.31,celsius,engine
+RD00535,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-10T09:02:39Z,oil_quality_index,97.67,index,engine
+RD00536,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-10T09:02:39Z,hours_since_last_service,61.91,hours,drivetrain
+RD00537,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-12T04:33:25Z,vibration_mm_s,2.55,mm/s,drivetrain
+RD00538,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-12T04:33:25Z,engine_temp_c,153.53,celsius,engine
+RD00539,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-12T04:33:25Z,oil_quality_index,89.42,index,engine
+RD00540,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-12T04:33:25Z,hours_since_last_service,171.09,hours,drivetrain
+RD00541,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-12T11:51:40Z,vibration_mm_s,1.19,mm/s,drivetrain
+RD00542,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-12T11:51:40Z,engine_temp_c,131.61,celsius,engine
+RD00543,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-12T11:51:40Z,oil_quality_index,86.79,index,engine
+RD00544,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-12T11:51:40Z,hours_since_last_service,36.7,hours,drivetrain
+RD00545,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-13T14:25:35Z,vibration_mm_s,1.07,mm/s,drivetrain
+RD00546,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-13T14:25:35Z,engine_temp_c,124.13,celsius,engine
+RD00547,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-13T14:25:35Z,oil_quality_index,65.09,index,engine
+RD00548,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-13T14:25:35Z,hours_since_last_service,86.59,hours,drivetrain
+RD00549,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-15T04:58:41Z,vibration_mm_s,2.46,mm/s,drivetrain
+RD00550,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-15T04:58:41Z,engine_temp_c,136.02,celsius,engine
+RD00551,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-15T04:58:41Z,oil_quality_index,72.64,index,engine
+RD00552,BR01,TAIL-BR01,ground_vehicle,M2 Bradley,2025-07-15T04:58:41Z,hours_since_last_service,130.18,hours,drivetrain
+RD00553,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-11T10:16:38Z,vibration_mm_s,2.68,mm/s,drivetrain
+RD00554,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-11T10:16:38Z,engine_temp_c,171.35,celsius,engine
+RD00555,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-11T10:16:38Z,oil_quality_index,79.03,index,engine
+RD00556,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-11T10:16:38Z,hours_since_last_service,102.58,hours,drivetrain
+RD00557,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-12T15:00:35Z,vibration_mm_s,2.64,mm/s,drivetrain
+RD00558,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-12T15:00:35Z,engine_temp_c,169.96,celsius,engine
+RD00559,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-12T15:00:35Z,oil_quality_index,92.28,index,engine
+RD00560,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-12T15:00:35Z,hours_since_last_service,22.14,hours,drivetrain
+RD00561,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-13T01:28:50Z,vibration_mm_s,1.05,mm/s,drivetrain
+RD00562,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-13T01:28:50Z,engine_temp_c,136.92,celsius,engine
+RD00563,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-13T01:28:50Z,oil_quality_index,89.72,index,engine
+RD00564,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-13T01:28:50Z,hours_since_last_service,106.77,hours,drivetrain
+RD00565,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-13T04:06:06Z,vibration_mm_s,1.45,mm/s,drivetrain
+RD00566,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-13T04:06:06Z,engine_temp_c,126.84,celsius,engine
+RD00567,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-13T04:06:06Z,oil_quality_index,87.73,index,engine
+RD00568,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-13T04:06:06Z,hours_since_last_service,128.95,hours,drivetrain
+RD00569,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-13T18:21:18Z,vibration_mm_s,3.61,mm/s,drivetrain
+RD00570,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-13T18:21:18Z,engine_temp_c,147.53,celsius,engine
+RD00571,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-13T18:21:18Z,oil_quality_index,81.3,index,engine
+RD00572,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-13T18:21:18Z,hours_since_last_service,23.68,hours,drivetrain
+RD00573,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-14T17:13:01Z,vibration_mm_s,0.63,mm/s,drivetrain
+RD00574,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-14T17:13:01Z,engine_temp_c,143.76,celsius,engine
+RD00575,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-14T17:13:01Z,oil_quality_index,75.64,index,engine
+RD00576,BR02,TAIL-BR02,ground_vehicle,M2 Bradley,2025-07-14T17:13:01Z,hours_since_last_service,52.56,hours,drivetrain
+RD00577,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-08T21:20:34Z,vibration_mm_s,2.72,mm/s,drivetrain
+RD00578,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-08T21:20:34Z,engine_temp_c,134.82,celsius,engine
+RD00579,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-08T21:20:34Z,oil_quality_index,66.33,index,engine
+RD00580,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-08T21:20:34Z,hours_since_last_service,138.57,hours,drivetrain
+RD00581,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-12T06:38:00Z,vibration_mm_s,2.05,mm/s,drivetrain
+RD00582,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-12T06:38:00Z,engine_temp_c,155.83,celsius,engine
+RD00583,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-12T06:38:00Z,oil_quality_index,95.23,index,engine
+RD00584,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-12T06:38:00Z,hours_since_last_service,40.85,hours,drivetrain
+RD00585,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-14T02:26:27Z,vibration_mm_s,2.43,mm/s,drivetrain
+RD00586,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-14T02:26:27Z,engine_temp_c,154.91,celsius,engine
+RD00587,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-14T02:26:27Z,oil_quality_index,81.23,index,engine
+RD00588,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-14T02:26:27Z,hours_since_last_service,25.51,hours,drivetrain
+RD00589,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-14T21:43:55Z,vibration_mm_s,1.65,mm/s,drivetrain
+RD00590,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-14T21:43:55Z,engine_temp_c,138.33,celsius,engine
+RD00591,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-14T21:43:55Z,oil_quality_index,87.11,index,engine
+RD00592,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-14T21:43:55Z,hours_since_last_service,155.81,hours,drivetrain
+RD00593,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-14T23:36:03Z,vibration_mm_s,1.59,mm/s,drivetrain
+RD00594,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-14T23:36:03Z,engine_temp_c,158.15,celsius,engine
+RD00595,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-14T23:36:03Z,oil_quality_index,74.51,index,engine
+RD00596,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-14T23:36:03Z,hours_since_last_service,170.68,hours,drivetrain
+RD00597,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-15T05:55:41Z,vibration_mm_s,3.18,mm/s,drivetrain
+RD00598,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-15T05:55:41Z,engine_temp_c,150.26,celsius,engine
+RD00599,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-15T05:55:41Z,oil_quality_index,80.01,index,engine
+RD00600,BR03,TAIL-BR03,ground_vehicle,M2 Bradley,2025-07-15T05:55:41Z,hours_since_last_service,63.47,hours,drivetrain

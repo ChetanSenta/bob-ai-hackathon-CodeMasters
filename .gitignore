@@ -83,7 +83,7 @@ demo/*.avi
 demo/*.mkv
 
 # ── Docker volumes / local data ───────────────────────────────────────────────
-data/
+/data/
 logs/
 *.log
 
@@ -94,3 +94,11 @@ logs/
 .terraform/
 *.tfstate
 *.tfstate.backup
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+# Explicitly track the sample dataset inside src/
+!src/data/
+!src/data/**

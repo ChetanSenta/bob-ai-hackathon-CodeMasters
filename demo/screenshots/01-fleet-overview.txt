@@ -1,0 +1,4 @@
+Screenshot to be added during demo recording.
+
+This file is a placeholder for: 01-fleet-overview.png
+Description: Fleet overview dashboard showing RED assets with GREEN/AMBER/RED status cards.

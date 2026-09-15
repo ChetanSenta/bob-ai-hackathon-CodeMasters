@@ -1,0 +1,4 @@
+Screenshot to be added during demo recording.
+
+This file is a placeholder for: 03-maintenance-plan.png
+Description: Maintenance plan with CRITICAL tasks sorted by urgency and mission proximity.

@@ -1,0 +1,28 @@
+tools:
+  - name: get_fleet_readiness
+    description: "Retrieves the current readiness status for all assets in the fleet. Returns GREEN/AMBER/RED status for each asset, their overall health scores, component breakdowns, and a fleet summary. Call this for any question about overall fleet status, how many assets are ready, or which assets have problems."
+    endpoint: "GET http://localhost:8000/readiness/fleet"
+    parameters: []
+    returns: "JSON with fleet array and summary object"
+
+  - name: get_asset_detail
+    description: "Retrieves detailed readiness information for a specific asset identified by its asset_id (e.g. AH04, UH03, AW02). Returns all component statuses, recent sensor readings, service history, and an AI-generated explanation. Call this when the user asks about a specific tail number or platform."
+    endpoint: "GET http://localhost:8000/readiness/asset/{asset_id}"
+    parameters:
+      - name: asset_id
+        type: string
+        required: true
+        description: "The asset identifier, e.g. AH04, UH03, MB03. Extract from the user's question."
+    returns: "JSON with detailed asset readiness including explanation"
+
+  - name: get_failure_predictions
+    description: "Returns a ranked list of components predicted to fail before the next mission window, sorted by urgency (CRITICAL first). Includes current metric values, thresholds, hours until mission, and recommended action. Call this when asked about predicted failures, what will break, or mission risk."
+    endpoint: "GET http://localhost:8000/predict/failures"
+    parameters: []
+    returns: "JSON predictions array sorted by urgency"
+
+  - name: get_maintenance_plan
+    description: "Returns a prioritised list of maintenance tasks sorted by urgency and mission proximity. Each task includes the asset, component, required action, estimated duration in hours, and the mission window deadline. Call this for maintenance scheduling, work orders, or prioritisation questions."
+    endpoint: "GET http://localhost:8000/maintenance/plan"
+    parameters: []
+    returns: "JSON maintenance plan array with priority ordering"

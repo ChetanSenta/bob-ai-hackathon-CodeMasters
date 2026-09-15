@@ -1,0 +1,20 @@
+name: "Mission Readiness Officer"
+description: "Military fleet maintenance copilot that ingests HUMS sensor data, scores asset readiness, predicts component failures, and delivers prioritised maintenance recommendations via IBM Bob."
+version: "1.0.0"
+
+model:
+  provider: "watsonx"
+  model_id: "ibm/granite-13b-chat-v2"
+  parameters:
+    max_new_tokens: 800
+    temperature: 0.2
+    top_p: 0.9
+
+system_prompt: ".bob/system-prompt.md"
+tools: ".bob/tools.yaml"
+
+context:
+  - "Military HUMS sensor data: vibration (mm/s), engine temperature (°C), oil quality index (0-100), hours-since-last-service"
+  - "Asset types: AH-64 Apache, UH-60 Black Hawk (helicopters); A-10 Thunderbolt II, C-130 Hercules (fixed-wing); M1 Abrams, M2 Bradley (ground vehicles)"
+  - "Readiness levels: GREEN (mission-ready), AMBER (monitor, plan maintenance), RED (mission-blocked, immediate action required)"
+  - "Backend API runs on http://localhost:8000"

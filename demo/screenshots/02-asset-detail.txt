@@ -1,0 +1,4 @@
+Screenshot to be added during demo recording.
+
+This file is a placeholder for: 02-asset-detail.png
+Description: Asset detail page showing component breakdown, sensor readings, and watsonx.ai explanation.

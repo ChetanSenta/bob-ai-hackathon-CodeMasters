@@ -1,0 +1,66 @@
+record_id,asset_id,tail_number,component,maintenance_type,technician,date,notes,outcome
+SR0001,AH01,TAIL-AH01,airframe,unscheduled_repair,SSG Torres,2025-05-03,Routine unscheduled repair completed. No anomalies detected.,completed
+SR0002,AH01,TAIL-AH01,airframe,calibration,SSG Torres,2024-09-27,Routine calibration completed. No anomalies detected.,completed
+SR0003,AH01,TAIL-AH01,avionics,calibration,SGT Hassan,2024-12-28,Routine calibration completed. No anomalies detected.,parts_on_order
+SR0004,AH02,TAIL-AH02,avionics,component_replacement,SGT Ramirez,2025-02-15,Routine component replacement completed. No anomalies detected.,completed
+SR0005,AH02,TAIL-AH02,rotor,scheduled_inspection,SGT Larson,2024-10-26,Routine scheduled inspection completed. No anomalies detected.,parts_on_order
+SR0006,AH03,TAIL-AH03,avionics,scheduled_inspection,WO1 Chen,2025-01-23,Routine scheduled inspection completed. No anomalies detected.,completed
+SR0007,AH03,TAIL-AH03,rotor,calibration,CPT Nguyen,2025-03-08,Routine calibration completed. No anomalies detected.,completed
+SR0008,AH04,TAIL-AH04,rotor,unscheduled_repair,SGT Hassan,2025-07-10,Elevated rotor vibration noted during post-flight check. Repair attempted; vibration persists.,deferred
+SR0009,AH04,TAIL-AH04,hydraulics,calibration,SGT Hassan,2024-10-14,Routine calibration completed. No anomalies detected.,deferred
+SR0010,AH04,TAIL-AH04,airframe,unscheduled_repair,SGT Mitchell,2025-02-27,Routine unscheduled repair completed. No anomalies detected.,completed
+SR0011,AH04,TAIL-AH04,avionics,component_replacement,CPT Nguyen,2024-08-29,Routine component replacement completed. No anomalies detected.,completed
+SR0012,AH05,TAIL-AH05,avionics,lubrication,SSG Torres,2025-01-08,Routine lubrication completed. No anomalies detected.,completed
+SR0013,AH05,TAIL-AH05,avionics,unscheduled_repair,SGT Hassan,2025-01-30,Routine unscheduled repair completed. No anomalies detected.,parts_on_order
+SR0014,AH05,TAIL-AH05,avionics,calibration,SSG Williams,2024-11-15,Routine calibration completed. No anomalies detected.,completed
+SR0015,UH01,TAIL-UH01,hydraulics,component_replacement,WO2 Patel,2024-11-10,Routine component replacement completed. No anomalies detected.,completed
+SR0016,UH01,TAIL-UH01,airframe,scheduled_inspection,SSG Williams,2025-03-04,Routine scheduled inspection completed. No anomalies detected.,completed
+SR0017,UH01,TAIL-UH01,airframe,component_replacement,SGT Hassan,2024-12-18,Routine component replacement completed. No anomalies detected.,deferred
+SR0018,UH02,TAIL-UH02,avionics,lubrication,CPT Nguyen,2024-10-17,Routine lubrication completed. No anomalies detected.,parts_on_order
+SR0019,UH02,TAIL-UH02,rotor,unscheduled_repair,SGT Hassan,2024-11-18,Routine unscheduled repair completed. No anomalies detected.,completed
+SR0020,UH03,TAIL-UH03,rotor,unscheduled_repair,CPT Okonkwo,2025-07-10,Engine temperature spiked during sortie. Cooling system inspected; issue unresolved.,deferred
+SR0021,UH03,TAIL-UH03,airframe,lubrication,SSG Williams,2025-05-24,Routine lubrication completed. No anomalies detected.,completed
+SR0022,UH03,TAIL-UH03,rotor,lubrication,WO1 Chen,2024-12-10,Routine lubrication completed. No anomalies detected.,completed
+SR0023,UH04,TAIL-UH04,airframe,unscheduled_repair,SSG Torres,2024-08-15,Routine unscheduled repair completed. No anomalies detected.,completed
+SR0024,UH04,TAIL-UH04,hydraulics,component_replacement,CPT Nguyen,2025-03-03,Routine component replacement completed. No anomalies detected.,completed
+SR0025,UH04,TAIL-UH04,rotor,calibration,SGT Mitchell,2025-05-12,Routine calibration completed. No anomalies detected.,completed
+SR0026,UH05,TAIL-UH05,hydraulics,scheduled_inspection,SGT Ramirez,2025-06-08,Routine scheduled inspection completed. No anomalies detected.,completed
+SR0027,UH05,TAIL-UH05,engine,component_replacement,WO1 Chen,2024-11-23,Routine component replacement completed. No anomalies detected.,completed
+SR0028,AW01,TAIL-AW01,hydraulics,scheduled_inspection,SGT Larson,2025-04-05,Routine scheduled inspection completed. No anomalies detected.,parts_on_order
+SR0029,AW01,TAIL-AW01,hydraulics,calibration,SGT Larson,2024-08-18,Routine calibration completed. No anomalies detected.,completed
+SR0030,AW02,TAIL-AW02,engine,unscheduled_repair,SGT Ramirez,2025-07-05,Oil sample showed degradation. Oil change deferred pending fresh supply delivery.,deferred
+SR0031,AW02,TAIL-AW02,engine,calibration,SGT Ramirez,2025-02-21,Routine calibration completed. No anomalies detected.,completed
+SR0032,AW02,TAIL-AW02,engine,calibration,SSG Williams,2025-04-12,Routine calibration completed. No anomalies detected.,deferred
+SR0033,AW02,TAIL-AW02,avionics,lubrication,SGT Hassan,2025-01-29,Routine lubrication completed. No anomalies detected.,parts_on_order
+SR0034,AW03,TAIL-AW03,avionics,scheduled_inspection,WO2 Patel,2024-12-17,Routine scheduled inspection completed. No anomalies detected.,completed
+SR0035,AW03,TAIL-AW03,landing_gear,lubrication,SGT Ramirez,2024-12-30,Routine lubrication completed. No anomalies detected.,completed
+SR0036,AW04,TAIL-AW04,engine,unscheduled_repair,SSG Torres,2025-02-11,Routine unscheduled repair completed. No anomalies detected.,deferred
+SR0037,AW04,TAIL-AW04,airframe,component_replacement,SGT Larson,2024-10-20,Routine component replacement completed. No anomalies detected.,parts_on_order
+SR0038,AW04,TAIL-AW04,hydraulics,unscheduled_repair,SGT Ramirez,2025-03-11,Routine unscheduled repair completed. No anomalies detected.,completed
+SR0039,CH01,TAIL-CH01,engine,scheduled_inspection,SGT Ramirez,2024-08-14,Routine scheduled inspection completed. No anomalies detected.,parts_on_order
+SR0040,CH01,TAIL-CH01,landing_gear,lubrication,SGT Mitchell,2025-06-14,Routine lubrication completed. No anomalies detected.,completed
+SR0041,CH02,TAIL-CH02,avionics,component_replacement,WO2 Patel,2025-01-15,Routine component replacement completed. No anomalies detected.,completed
+SR0042,CH02,TAIL-CH02,airframe,unscheduled_repair,WO1 Chen,2024-09-28,Routine unscheduled repair completed. No anomalies detected.,deferred
+SR0043,CH02,TAIL-CH02,airframe,calibration,SGT Ramirez,2025-04-08,Routine calibration completed. No anomalies detected.,completed
+SR0044,CH03,TAIL-CH03,avionics,scheduled_inspection,SGT Mitchell,2025-05-04,Routine scheduled inspection completed. No anomalies detected.,parts_on_order
+SR0045,CH03,TAIL-CH03,avionics,unscheduled_repair,SSG Williams,2025-03-08,Routine unscheduled repair completed. No anomalies detected.,completed
+SR0046,CH03,TAIL-CH03,engine,lubrication,WO1 Chen,2024-12-11,Routine lubrication completed. No anomalies detected.,completed
+SR0047,CH04,TAIL-CH04,engine,unscheduled_repair,SGT Ramirez,2025-07-07,Vibration and temp trending upward. Flagged for pre-mission inspection.,deferred
+SR0048,CH04,TAIL-CH04,airframe,scheduled_inspection,WO2 Patel,2024-08-09,Routine scheduled inspection completed. No anomalies detected.,completed
+SR0049,CH04,TAIL-CH04,landing_gear,lubrication,SGT Larson,2024-08-18,Routine lubrication completed. No anomalies detected.,completed
+SR0050,CH04,TAIL-CH04,avionics,lubrication,CPT Okonkwo,2025-05-30,Routine lubrication completed. No anomalies detected.,completed
+SR0051,MB01,TAIL-MB01,hydraulics,calibration,CPT Nguyen,2025-06-12,Routine calibration completed. No anomalies detected.,completed
+SR0052,MB01,TAIL-MB01,drivetrain,calibration,SGT Hassan,2024-09-29,Routine calibration completed. No anomalies detected.,completed
+SR0053,MB02,TAIL-MB02,drivetrain,calibration,CPT Nguyen,2024-09-04,Routine calibration completed. No anomalies detected.,parts_on_order
+SR0054,MB02,TAIL-MB02,tracks,lubrication,SSG Torres,2024-08-20,Routine lubrication completed. No anomalies detected.,completed
+SR0055,MB02,TAIL-MB02,tracks,calibration,WO2 Patel,2025-03-12,Routine calibration completed. No anomalies detected.,parts_on_order
+SR0056,MB03,TAIL-MB03,drivetrain,scheduled_inspection,CPT Nguyen,2025-06-29,Inspection deferred — parts unavailable. Overdue follow-up required.,deferred
+SR0057,MB04,TAIL-MB04,hydraulics,scheduled_inspection,CPT Okonkwo,2024-09-26,Routine scheduled inspection completed. No anomalies detected.,completed
+SR0058,MB04,TAIL-MB04,tracks,scheduled_inspection,WO2 Patel,2025-04-30,Routine scheduled inspection completed. No anomalies detected.,completed
+SR0059,MB04,TAIL-MB04,engine,scheduled_inspection,SSG Williams,2024-08-30,Routine scheduled inspection completed. No anomalies detected.,completed
+SR0060,BR01,TAIL-BR01,drivetrain,scheduled_inspection,WO1 Chen,2024-09-15,Routine scheduled inspection completed. No anomalies detected.,completed
+SR0061,BR01,TAIL-BR01,drivetrain,lubrication,SGT Mitchell,2025-03-13,Routine lubrication completed. No anomalies detected.,parts_on_order
+SR0062,BR02,TAIL-BR02,drivetrain,component_replacement,WO1 Chen,2025-02-10,Routine component replacement completed. No anomalies detected.,completed
+SR0063,BR02,TAIL-BR02,engine,scheduled_inspection,SGT Mitchell,2025-04-03,Routine scheduled inspection completed. No anomalies detected.,completed
+SR0064,BR03,TAIL-BR03,hydraulics,scheduled_inspection,SGT Mitchell,2024-09-03,Routine scheduled inspection completed. No anomalies detected.,completed
+SR0065,BR03,TAIL-BR03,tracks,unscheduled_repair,CPT Nguyen,2025-04-28,Routine unscheduled repair completed. No anomalies detected.,completed

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "mission-readiness": {
+      "command": "node",
+      "args": ["${workspaceFolder}/src/mcp/build/index.js"],
+      "env": {
+        "BACKEND_URL": "http://localhost:8000"
+      },
+      "alwaysAllow": [
+        "get_fleet_readiness",
+        "get_asset_detail",
+        "get_failure_predictions",
+        "get_maintenance_plan"
+      ]
+    }
+  }
+}
