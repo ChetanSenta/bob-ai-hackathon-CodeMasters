@@ -11,7 +11,7 @@
 | **Team Name** | CodeMasters |
 | **Track** | AI |
 | **Team Lead** | Chetan Senta |
-| **Members** | Chetan Senta |
+| **Members** | Vivek Sangani , Abhishek Pitroda , Manthan Rangpariya |
 
 ---
 
