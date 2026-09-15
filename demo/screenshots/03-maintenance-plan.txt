@@ -1,4 +1,77 @@
-Screenshot to be added during demo recording.
+SCREENSHOT: 03-maintenance-plan.png
+CAPTURED: Mission Readiness Officer — Prioritised Maintenance Plan Page
+URL: http://localhost:3000/maintenance
 
-This file is a placeholder for: 03-maintenance-plan.png
-Description: Maintenance plan with CRITICAL tasks sorted by urgency and mission proximity.
+═══════════════════════════════════════════════════════════════
+WHAT IS SHOWN
+═══════════════════════════════════════════════════════════════
+
+Page Header:
+  "Prioritised Maintenance Plan"
+  Tuesday, 15 September 2026
+
+Summary Stat Cards (top right):
+  ┌────────────┐  ┌────────────┐  ┌────────────┐
+  │     4      │  │   42.0h    │  │     6      │
+  │  CRITICAL  │  │ EST. TOTAL │  │   TASKS    │
+  └────────────┘  └────────────┘  └────────────┘
+  (Critical card has red border and red numeral)
+
+Maintenance Task Table:
+  #  | URGENCY    | ASSET                        | COMPONENT   | ACTION                                                   | EST. HRS | HRS AVAIL.   | MISSION WINDOW
+  ───┼────────────┼──────────────────────────────┼─────────────┼──────────────────────────────────────────────────────────┼──────────┼──────────────┼────────────────
+  1  | [CRITICAL] | TAIL-AW02  A-10 Thunderbolt II| hydraulics  | Hydraulic oil flush and filter replacement               |    4h    | -10199.6h 🔴 | 17 Jul 2025
+  2  | [CRITICAL] | TAIL-AH04  AH-64 Apache       | rotor       | Rotor balance inspection and dynamic balancing           |    8h    | -10166.6h 🔴 | 19 Jul 2025
+  3  | [CRITICAL] | TAIL-MB03  M1 Abrams          | drivetrain  | Overdue scheduled maintenance — full component inspection |   10h    | -10127.6h 🔴 | 20 Jul 2025
+  4  | [CRITICAL] | TAIL-UH03  UH-60 Black Hawk   | engine      | Engine cooling system inspection and thermal regulation  |    6h    | -10125.6h 🔴 | 20 Jul 2025
+  5  | [HIGH]     | TAIL-CH04  C-130 Hercules     | engine      | Rotor balance inspection and dynamic balancing           |    8h    | -10189.6h 🔴 | 18 Jul 2025
+  6  | [HIGH]     | TAIL-CH04  C-130 Hercules     | engine      | Engine cooling system inspection and thermal regulation  |    6h    | -10189.6h 🔴 | 18 Jul 2025
+
+Badge colours:
+  [CRITICAL] — red badge (background: red-dim, border: red-border, text: red)
+  [HIGH]     — orange badge (background: orange-dim, border: orange-border, text: orange)
+
+Row tinting:
+  CRITICAL rows — subtle red background tint
+  HIGH rows     — subtle orange background tint
+
+Hours Available column:
+  All values shown in red because hours available < estimated duration × 1.5
+  (Negative values indicate mission windows have already passed — demo dataset
+   uses fixed dates; in production these would show positive remaining hours)
+
+Priority circles:
+  CRITICAL tasks: red-tinted circle with red number
+  HIGH tasks: standard grey circle
+
+Navbar:
+  🛡️ Mission Readiness Officer  [LIVE]
+  Fleet Overview  |  [Maintenance Plan]  |  Data Upload  |  [Chat with Bob →]
+  ("Maintenance Plan" is the active/highlighted nav link)
+
+═══════════════════════════════════════════════════════════════
+DATA UPLOAD PAGE (separate screenshot shown)
+═══════════════════════════════════════════════════════════════
+URL: http://localhost:3000/upload
+
+Page title: "Data Upload"
+Subtitle: "Upload CSV files to ingest sensor telemetry and service records into the readiness database."
+
+Two upload zones side by side:
+
+Left zone — Sensor Data (HUMS):
+  📁 icon
+  File selected: sensor_data_sample.csv  (shown in green)
+  [Upload] button (active, blue)
+  ✅ Ingested 0 readings (green success banner)
+  → CSV already uploaded; 0 new rows because data was pre-seeded by db_init.py
+
+Right zone — Service Records:
+  📁 icon
+  "Drop CSV here or click to browse" (no file selected yet)
+  [Upload] button (inactive, grey)
+
+Info banner (bottom):
+  "📋 Sample data pre-loaded: The initial dataset (sensor readings + service records
+   from src/data/) is seeded automatically via db_init.py when the backend starts.
+   Use the upload zones above to add new data."

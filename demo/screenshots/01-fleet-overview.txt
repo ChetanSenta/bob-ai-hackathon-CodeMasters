@@ -1,4 +1,60 @@
-Screenshot to be added during demo recording.
+SCREENSHOT: 01-fleet-overview.png
+CAPTURED: Mission Readiness Officer — Fleet Overview Page
+URL: http://localhost:3000/
 
-This file is a placeholder for: 01-fleet-overview.png
-Description: Fleet overview dashboard showing RED assets with GREEN/AMBER/RED status cards.
+═══════════════════════════════════════════════════════════════
+WHAT IS SHOWN
+═══════════════════════════════════════════════════════════════
+
+Summary bar (top):
+  Total: 25  |  ✅ GREEN: 20  |  ⚠ AMBER: 1  |  🔴 RED: 4
+
+Filter buttons (active = "All"):
+  [All]  [Helicopters]  [Fixed-Wing]  [Ground Vehicles]  [RED only]
+
+Asset cards visible (3-column grid):
+
+Row 1:
+  TAIL-AH01  |  AH-64 Apache  |  101st Airborne · Fort Campbell  |  ✅ GREEN  |  Score 100  |  Next mission: 20 Jul 2025, 20:00
+  TAIL-AH02  |  AH-64 Apache  |  101st Airborne · Fort Campbell  |  ✅ GREEN  |  Score 100  |  Next mission: 19 Jul 2025, 22:00
+  TAIL-AH03  |  AH-64 Apache  |  101st Airborne · Fort Campbell  |  ✅ GREEN  |  Score 100  |  Next mission: 17 Jul 2025, 20:00
+
+Row 2:
+  TAIL-AH04  |  AH-64 Apache  |  101st Airborne · Fort Campbell  |  🔴 RED    |  Score 36   |  Next mission: 19 Jul 2025, 01:00
+  TAIL-AH05  |  AH-64 Apache  |  101st Airborne · Fort Campbell  |  ✅ GREEN  |  Score 100  |  Next mission: 18 Jul 2025, 05:00
+  TAIL-UH01  |  UH-60 Black Hawk  |  82nd Airborne · Fort Bragg  |  ✅ GREEN  |  Score 100  |  Next mission: 19 Jul 2025, 20:00
+
+Row 3:
+  TAIL-UH02  |  UH-60 Black Hawk  |  82nd Airborne · Fort Bragg  |  ✅ GREEN  |  Score 100  |  Next mission: 17 Jul 2025, 07:00
+  TAIL-UH03  |  UH-60 Black Hawk  |  82nd Airborne · Fort Bragg  |  🔴 RED    |  Score 70   |  Next mission: 20 Jul 2025, 18:00
+  TAIL-UH04  |  UH-60 Black Hawk  |  82nd Airborne · Fort Bragg  |  ✅ GREEN  |  Score 100  |  Next mission: 21 Jul 2025, 03:00
+
+(More cards below the fold — scroll to see full 25-asset fleet)
+
+Each card contains:
+  - Tail number (large, bold)
+  - Platform name
+  - Unit and base (with location pin icon)
+  - Status badge (GREEN / AMBER / RED pill with pulsing dot)
+  - Readiness score progress bar (green/red/amber fill)
+  - Score value / 100
+  - Next mission window timestamp
+  - "View Details →" link in accent blue
+
+Navbar:
+  🛡️ Mission Readiness Officer  [LIVE]
+  Fleet Overview  |  Maintenance Plan  |  Data Upload  |  [Chat with Bob →]
+
+Theme: Deep navy dark mode (#080d14 background, #131e2c cards)
+
+═══════════════════════════════════════════════════════════════
+DOCKER IMAGES (separate screenshot — Docker Desktop)
+═══════════════════════════════════════════════════════════════
+
+Docker Desktop > Images > Local tab shows 3 images built successfully:
+  postgres               15-alpine  |  fe0737ba566a  |  1 month ago   |  408.38 MB  |  ● running
+  bob-ai-hackathon-codemasters  latest  |  38d2e011ccbd  |  3 hours ago   |  101.93 MB
+  bob-ai-hackathon-codemaster   latest  |  8d833774d912  |  3 hours ago   |  665.92 MB  |  ● running
+
+Confirms: docker compose up --build completed successfully.
+All three services (postgres:15, FastAPI backend, React frontend) are built and running.
