@@ -1,14 +1,19 @@
-Demo video will be recorded and uploaded before submission deadline.
-See docs/setup-guide.md to run the demo locally.
+Demo video will be recorded and uploaded — link will be added here before final submission.
 
-Accepted platforms:
-  - YouTube (public or unlisted)
-  - Loom (https://www.loom.com/share/...)
-  - IBM Box (https://ibm.box.com/s/...)
-  - Google Drive (set to "Anyone with the link can view")
+To run the demo locally right now:
+  See docs/setup-guide.md — takes under 5 minutes with Docker.
 
-Video requirements:
-  - Length: 3–5 minutes maximum
-  - Must show the application running (not just slides)
-  - Should walk through at least one key feature end-to-end
-  - Audio narration strongly recommended
+Quick start:
+  git clone https://github.com/ChetanSenta/bob-ai-hackathon-CodeMasters.git
+  cd bob-ai-hackathon-CodeMasters
+  cp .env.example .env
+  docker compose up --build
+  open http://localhost:3000
+
+What the demo covers (3-5 minute walkthrough):
+  1. docker compose up --build — full stack starts (postgres + FastAPI + React)
+  2. Fleet Overview — 25 assets loaded, 4 RED assets visible (AH04, UH03, AW02, MB03)
+  3. Asset Detail — click TAIL-AH04, show RED rotor vibration at 8.13 mm/s with explanation
+  4. Bob Chat — ask "Why is TAIL-AH04 grounded?" — Bob calls MCP tool, returns live data
+  5. Maintenance Plan — 4 CRITICAL tasks (AW02 hydraulics, AH04 rotor, MB03 drivetrain, UH03 engine)
+  6. Data Upload — upload src/data/sample_hums_sensors.csv to demonstrate CSV ingest

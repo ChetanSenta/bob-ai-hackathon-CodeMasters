@@ -1,38 +1,25 @@
 # Screenshots
 
-Place your application screenshots in this folder.
+Screenshots from the live running application.
 
-## Required Screenshots
+## Screenshot Index
 
-The following 3 screenshots are required for this submission:
-
-| Filename | Description |
+| Filename | What it shows |
 |---|---|
-| `01-fleet-overview.png` | Fleet overview dashboard showing RED assets with status badges |
-| `02-asset-detail.png` | Asset detail page showing component breakdown and watsonx.ai explanation |
-| `03-maintenance-plan.png` | Maintenance plan with CRITICAL tasks sorted by urgency |
+| `00-ide-workspace.png` | IBM Bob IDE — MCP tool call (`Get Asset Detail`) and Bob chat response for TAIL-AH04 |
+| `01-fleet-overview.png` | Fleet Overview — 25 assets, 20 GREEN / 1 AMBER / 4 RED status grid |
+| `02-asset-detail.png` | Asset Detail — TAIL-AH04 component breakdown, RED rotor (8.13 mm/s), readiness assessment |
+| `03-maintenance-plan.png` | Maintenance Plan — 4 CRITICAL + 2 HIGH tasks, 42h total, sorted by urgency |
+| `04-data-upload.png` | Data Upload — CSV ingest zones with successful upload confirmation |
+| `05-docker-images.png` | Docker Desktop — 3 images built (postgres:15-alpine, backend, frontend) |
 
-Placeholder `.txt` files exist for each required screenshot. Replace them with real `.png` screenshots before final submission.
+## Corresponding description files
 
-## Naming Convention
+Each screenshot has a companion `.txt` file with the exact content of every visible
+element transcribed — useful for accessibility and for judges who cannot view images.
 
-Name your screenshots sequentially so they appear in logical order:
-
-  01-landing-page.png       ← First thing a user sees
-  02-main-feature.png       ← Your primary feature in action
-  03-output-or-results.png  ← The result / value delivered
-  04-additional-feature.png ← Any other notable screen
-
-## Requirements
-
-- Minimum: 3 screenshots
-- Format: PNG or JPG
-- Show the application running with real (or realistic mock) data
-- Avoid screenshots of empty states or placeholder data
-- Captions are not required but appreciated
-
-## Tips
-
-- Use a consistent browser window size across all screenshots
-- Highlight key UI elements with arrows/circles if helpful (use any image editor)
-- Include a screenshot showing IBM technology integration if applicable
+| Description file | Screenshot described |
+|---|---|
+| `01-fleet-overview.txt` | `01-fleet-overview.png` + `05-docker-images.png` |
+| `02-asset-detail.txt` | `02-asset-detail.png` + `00-ide-workspace.png` (Bob chat panel) |
+| `03-maintenance-plan.txt` | `03-maintenance-plan.png` + `04-data-upload.png` |
